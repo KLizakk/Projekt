@@ -1,0 +1,33 @@
+﻿<Window x:Class="BetterWpfAPP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BetterWpfAPP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+       
+        <Button  Grid.Row="3" x:Name="Exit" Content="Wyjście"  Click="Exit_Click" FontSize="30" Background="Purple" />
+      
+        <Button x:Name="PobierzDane" Content="Wyszukaj" Grid.Row="1" FontSize="30" Background="Yellow" Click="PobierzDane_Click" />
+        <TextBox Name="Wprowadzanie" Grid.Column="1" Grid.ColumnSpan="2" Background="Blue" Text="Wprowadź imię zawodnika" TextAlignment="Center"  FontSize="30" GotFocus="Wyszukaj_GotFocus"/>
+        <TextBlock x:Name="NazwiskoZawodnika" Grid.Column="1" Grid.Row="1" FontSize="30" Text="Nazwisko" TextAlignment="Center"/>
+        <TextBlock x:Name="ImięZawodnika" Grid.Column="2" Grid.Row="1" FontSize="30" Text="Imię" TextAlignment="Center"/>
+        <TextBlock x:Name="WagaZawodnika" Grid.Column="1" Grid.Row="2" FontSize="30" Text="Waga" TextAlignment ="Center"/>
+        <TextBlock x:Name="WzrostZawodnika" Grid.Column="2" Grid.Row="2" FontSize="30" Text="Wzrost" TextAlignment="Center" />
+        <TextBlock x:Name="IloscZawodnikow" Text="Tutaj pokaże się ilośc zawodników o wprowadzonym imieniu"/>
+        <Button x:Name="testokna" Content="Okno błędu" Grid.Row="3" Grid.Column="3" Click="testokna_Click"/>
+    </Grid>
+</Window>

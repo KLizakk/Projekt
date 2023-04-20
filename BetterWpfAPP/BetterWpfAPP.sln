@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterWpfAPP", "BetterWpfAPP\BetterWpfAPP.csproj", "{C00F7D3A-E1CA-40D0-A283-BA73F05279F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C00F7D3A-E1CA-40D0-A283-BA73F05279F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00F7D3A-E1CA-40D0-A283-BA73F05279F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00F7D3A-E1CA-40D0-A283-BA73F05279F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00F7D3A-E1CA-40D0-A283-BA73F05279F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6537D4CB-41BE-4846-9FC9-9626A1A1CB9D}
+	EndGlobalSection
+EndGlobal
